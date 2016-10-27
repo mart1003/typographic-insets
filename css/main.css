@@ -87,7 +87,7 @@ footer {
 */
 
 /* Write your CSS here */
-main:first-letter {
+main > p:first-child::first-letter {
   font-size: 5rem;
   font-style: normal;
   background-color: #666;
